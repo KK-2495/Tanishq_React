@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 100%;
+    /* height: 667px; */
+    /* border: 1px solid black; */
+}
+
+.main>div:nth-child(1){
+    width: 47%;
+    /* height: 400px; */
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(148, 148, 148, 0.5);
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+.userInfo{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 4%;
+}
+.userInfo>div:nth-child(1){
+    width: 90%;
+    /* border: 1px solid green; */
+    margin: auto;
+    padding: 10px;
+}
+.userInfo>div:nth-child(1)>div:nth-child(1) h1{
+    text-align: center;
+    color: rgb(131,39,41);
+    margin-bottom: 5%;
+}
+
+.enterPhone{
+    display: flex;
+    margin-top: 10%;
+    height: 60px;
+}
+.loginEmail{
+    flex-direction: column;
+}
+
+.enterPhone fieldset{
+    width: 25%;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+.enterPhone legend{
+    font-size: 12px;
+    margin-left: 20%;
+    color: gray;
+}
+.enterPhone p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 4%;
+}
+.enterPhone input{
+    width: 65%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+.passwordField input{
+    margin-top: 2%;
+    width: 92%;
+    height: 43px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+}
+
+.checkBox{
+    margin-top: 5%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.checkBox1{
+    margin-top: 20%;
+}
+.checkBox input{
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(131,39,41);
+}
+.checkBox p{
+    font-size: 13px;
+    padding-top: 2px;
+    color: rgb(33,37,41);
+}
+
+.policy{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.policy p{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.policy u{
+    color: rgb(131,39,41);
+    font-weight: bold;
+}
+.button{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(131,39,41);
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+.loginImage{
+    width: 30%;
+    /* border: 1px solid green; */
+}
+.loginImage img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:770px) {
+    .loginImage{
+        display: none;
+    }
+    .userInfo{
+        width: 100%;
+    }
+}
