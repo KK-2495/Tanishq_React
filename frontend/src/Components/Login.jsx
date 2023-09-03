@@ -43,34 +43,34 @@ const Login = () => {
 
   return (
     <>
-      <div class="main">
+      <div className="main">
             <div>
-                <div class="userInfo">
-                    <div class="user-head">
+                <div className="userInfo">
+                    <div className="user-head">
                         <form onSubmit={handleSubmit}>
                             <div>
                                 <h1>Login or Signup</h1>
                             </div>
-                            <div class="enterPhone loginEmail" >
+                            <div className="enterPhone loginEmail" >
 
                                 <input id="email" type="email" name='email' onChange={handleChange} placeholder="Enter Your Email" /> 
                                 <input id="password" type="password" name='password' onChange={handleChange} placeholder="Enter Your Password" />
                             </div>
 
-                            <div class="checkBox checkBox1">
+                            <div className="checkBox checkBox1">
                                 <input type="checkbox" />
                                 <p>Remember Me</p>
                             </div>
-                            <div class="policy">
+                            <div className="policy">
                                 <p>By Continuing, I agree to <u>Terms of Use</u> & <u>Privacy Policy</u></p>
                             </div>
-                            <div class="button">
+                            <div className="button">
                                 <input type="submit" value="Login" />
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="loginImage">
+                <div className="loginImage">
                     <img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwcaaa047f/login_signup/Mask-Group.png"
                         alt="" />
                 </div>

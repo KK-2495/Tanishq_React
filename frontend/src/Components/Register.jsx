@@ -36,45 +36,45 @@ const Register = () => {
     }
   return (
     <>
-        <div class="main">
+        <div className="main">
             <div>
-                <div class="userInfo">
+                <div className="userInfo">
                     <div>
                         <form onSubmit={handleSubmit}>
                             <div>
                                 <h1>Register</h1>
                             </div>
-                            <div class="enterPhone">
+                            <div className="enterPhone">
                                 <fieldset>
                                     <legend>Code</legend>
-                                    <p>+91 <i class="fa-solid fa-angle-down"></i></p>
+                                    <p>+91 <i className="fa-solid fa-angle-down"></i></p>
                                 </fieldset>
                                 <input id="userPhNum" type="text" name="email" onChange={handleChange}  placeholder="Enter Mobile no. or Email" />
                             </div>
-                            <div class="passwordField">
+                            <div className="passwordField">
                                 <input id="userName" type="text" name="name" onChange={handleChange} placeholder="Enter Your Name" />
                             </div>
-                            <div class="passwordField">
+                            <div className="passwordField">
                                 <input id="userPassword" type="password" name="password" onChange={handleChange}  placeholder="Enter Password" />
                             </div>
-                            <div class="passwordField">
+                            <div className="passwordField">
                                 <input id="userConfirmPassword" type="password" name="confirmPassword" onChange={handleChange}  placeholder="Confirm Password" />
                             </div>
     
-                            <div class="checkBox">
+                            <div className="checkBox">
                                 <input type="checkbox" />
                                 <p>Remember Me</p>
                             </div>
-                            <div class="policy">
+                            <div className="policy">
                                 <p>By Continuing, I agree to <u>Terms of Use</u> & <u>Privacy Policy</u></p>
                             </div>
-                            <div class="button">
+                            <div className="button">
                                 <input type="submit" value="Register" />
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="loginImage">
+                <div className="loginImage">
                     <img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwcaaa047f/login_signup/Mask-Group.png"
                         alt="" />
                 </div>

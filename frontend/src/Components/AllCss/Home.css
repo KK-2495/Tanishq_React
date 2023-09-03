@@ -9,6 +9,40 @@
     width: 100%;
     /* height: 7000px; */
   }
+  .navbar {
+    height: 80px;
+    position: fixed;
+    top: -11%;
+    width: 100%!important;
+    z-index: 2;
+    background-color: #f2e9e9;
+    display: flex;
+    /* align-items: center; */
+  }
+  .navbar > div {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    margin: auto;
+    align-items: center;
+  }
+  .navbar > div >div:nth-child(3) div button {
+    padding: 5px;
+    width: 80px;
+    background-color: #f2e9e9;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  .navbar > div > div:nth-child(3) {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
   .logo {
     width: 7%;
     /* border: 2px solid red; */
@@ -52,40 +86,6 @@
     width: 5%;
   }
   
-  .navbar {
-    height: 80px;
-    position: fixed;
-    top: -10%;
-    width: 100%;
-    z-index: 2;
-    background-color: #f2e9e9;
-    display: flex;
-    /* align-items: center; */
-  }
-  .navbar > div {
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: space-between;
-    width: 86%;
-    margin: auto;
-    align-items: center;
-  }
-  .navbar > div >div:nth-child(3) div button {
-    padding: 5px;
-    width: 80px;
-    background-color: #f2e9e9;
-    outline: none;
-    border: 1px solid black;
-    border-radius: 8px;
-  }
-  .navbar > div > div:nth-child(3) {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    /* border: 2px solid blue; */
-  }
   .stores > img {
     width: 27%;
   }
