@@ -575,7 +575,7 @@ const Home = () => {
 
         <div className="gift">
           <div className="giftImage">
-            <video autoplay muted loop>
+            <video autoPlay muted loop>
               <source
                 src="https://staticimg.titan.co.in/Tanishq/Banners/video/ge-mb.mp4"
                 type="video/mp4"
